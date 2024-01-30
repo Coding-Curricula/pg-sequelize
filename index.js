@@ -1,1 +1,3 @@
-console.log('Hello World');
+const { sequelize, testConnection } = require('./models/conn');
+
+testConnection();
